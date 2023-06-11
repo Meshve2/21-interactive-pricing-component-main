@@ -1,0 +1,330 @@
+.body {
+    font-family: 'Manrope', sans-serif;
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/bg-pattern.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.simplebox {
+    width: 320px;
+    height: 150px;
+    background-position: center, top;
+    background-image: url(img/pattern-circles.svg);
+    background-repeat: no-repeat;
+    margin-top: 57px;
+    margin-bottom: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: center;
+}
+
+.simpleh3 {
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 800;
+    text-align: center;
+    color: #293356;
+    align-self: center;
+}
+
+.sign-up {
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 23px;
+    color: #848EAD;
+    text-align: center;
+}
+
+.sign-updesktop {
+    display: none;
+}
+
+.headbox {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 20px 30px -5px rgba(127, 137, 185, 0.152073);
+    border-radius: 8px;
+    margin-bottom: 80px;
+}
+
+.pageviewsbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    margin-top: 22px;
+    margin-bottom: 34px;
+}
+
+.pageviewstext {
+    color: #848EAD;
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 1.71px;
+}
+
+.movingbtnboxmobile {
+    width: 279px;
+    height: 8px;
+    background: rgba(164, 243, 235, 1);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.movingbtnboxdesktop {
+    display: none;
+}
+
+.movbtn {
+    background-color: #10D8C4;
+    box-shadow: 0px 15px 30px rgba(0, 255, 231, 0.6);
+    border-radius: 100%;
+    border: 0;
+    width: 40px;
+    height: 40px;
+    margin-top: -18px;
+    transition: transform 0.8s ease-in-out;
+}
+
+.movbtn:hover {
+    transform: translate(200px);
+}
+
+.pricemonth {
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 44px;
+    letter-spacing: -0.8px;
+    color: #293356;
+}
+
+.price {
+    color: #848EAD;
+    font-weight: 600;
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+.monthly-yearlybox {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    font-size: 12px;
+    font-weight: 600;
+    color: #848EAD;
+}
+
+.monthlybtnbox {
+    display: flex;
+    background-color: #CFD8EF;
+    border-radius: 15px;
+    width: 43px;
+    height: 22px;
+    align-items: center;
+}
+
+.monthlybtn {
+    background: #FFFFFF;
+    width: 14px;
+    height: 14px;
+    border-radius: 100%;
+    border: 0;
+    margin: 4px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.monthlybtn:hover {
+    transform: translate(10px);
+}
+
+.discountboxmobile {
+    display: flex;
+    width: 41px;
+    height: 19px;
+    background-color: #FEEDE8;
+    border-radius: 9.5px;
+
+}
+
+.discountboxdesktop {
+    display: none;
+}
+
+.discountcolor {
+    color: #FF8D68;
+    margin: auto;
+    font-size: 10px;
+}
+
+.lineabox {
+    width: 100%;
+    border-bottom: 1px solid #ECF0FB;
+    margin-top: 38px;
+    margin-bottom: 24px;
+}
+
+.footerbox {
+    display: flex;
+    flex-direction: column;
+    row-gap: 33px;
+    align-items: center;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+    width: 160px;
+}
+
+.checktext {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.unlimitebox {
+    padding-left: 7px;
+}
+
+.emailbox {
+    padding-left: 35px;
+}
+
+.starttrialbtn {
+    width: 170px;
+    height: 41px;
+    background-color: #293356;
+    border-radius: 20.5px;
+    color: rgba(190, 205, 255, 1);
+    font-size: 12px;
+    font-weight: 800;
+    margin-bottom: 32px;
+    border: 0;
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+
+    .main {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .simplebox {
+        width: 393px;
+        gap: 12px;
+    }
+
+    .simpleh3 {
+        font-size: 28px;
+    }
+
+    .sign-up {
+        display: none;
+    }
+
+    .sign-updesktop {
+        display: block;
+        font-weight: 600;
+        font-size: 15px;
+        color: #848EAD;
+        text-align: center;
+    }
+
+    .headbox {
+        width: 540px;
+        height: 397px;
+        align-items: center;
+    }
+
+    .pageviewsbox {
+        flex-direction: row;
+        gap: 80px;
+        align-items: baseline;
+        margin-top: 40px;
+    }
+
+    .pageviewstext {
+        font-size: 14px;
+        letter-spacing: 2px;
+    }
+
+    .pricemonth {
+        font-size: 40px;
+        letter-spacing: -1px;
+    }
+
+    .price {
+        font-size: 16px;
+    }
+
+    .movingbtnboxmobile {
+        display: none;
+    }
+
+    .movingbtnboxdesktop {
+        display: block;
+        width: 444px;
+        height: 8px;
+        background: rgba(164, 243, 235, 1);
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 44px;
+    }
+
+    .movbtn {
+        cursor: pointer;
+    }
+
+    .monthly-yearlybox {
+        gap: 20px;
+        align-self: last baseline;
+        padding-right: 65px;
+    }
+
+    .monthlybtnbox {
+        cursor: pointer;
+        background: #7AEADF;
+        border-radius: 15px;
+    }
+
+    .lineabox {
+        margin-bottom: 34px;
+    }
+
+    .footerbox {
+        flex-direction: row;
+        gap: 133px;
+    }
+
+    .unlimitebox {
+        padding: 0;
+    }
+
+    .emailbox {
+        padding: 0;
+    }
+
+    .starttrialbtn {
+        cursor: pointer;
+        margin-top: 30px;
+    }
+}
